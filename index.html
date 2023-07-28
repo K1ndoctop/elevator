@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h2>Лифт</h2>
+      <div class="elevator_box">
+        <div id="moving-block"></div>
+      </div>
+      <div>
+        <ul>
+          <li>7 Этаж</li>
+          <li>6 Этаж</li>
+          <li>5 Этаж</li>
+          <li>4 Этаж</li>
+          <li>3 Этаж</li>
+          <li>2 Этаж</li>
+          <li>1 Этаж</li>
+        </ul>
+      </div>
+      <div>
+        <button onclick="moveBlockUp('up')">Вверх</button>
+        <button onclick="moveBlockDown('down')">Вниз</button>
+        <button onclick="moveElevator()">Выбрать этажа</button>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>

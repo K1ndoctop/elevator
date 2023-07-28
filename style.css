@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    background-color: bisque;
+    height: 928px;
+    position: relative;
+    display: flex;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 150px;
+}
+li{
+    font-size: 20px;
+    margin-bottom: 90px;
+    list-style: none;
+
+}
+.elevator_box{
+    width: 100px;
+    height: 700px;
+    background-color: cadetblue;
+    margin-left: 100px;
+    display: flex;
+    align-items: end;
+}
+#moving-block {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 0;
+    transition: top 0.5s ease;
+}
